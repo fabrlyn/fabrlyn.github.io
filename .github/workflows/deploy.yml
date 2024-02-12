@@ -36,6 +36,12 @@ jobs:
       - name: Build app
         run: elm-app build
 
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX "build/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+
       - name: List directory after build
         run: |
           ls -la
