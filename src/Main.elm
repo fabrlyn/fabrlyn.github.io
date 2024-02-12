@@ -140,8 +140,8 @@ view _ =
     div [ css [ margin (px 0), height (pct 100) ] ]
         [ global
             [ html
-                [ color (hex "606060")
-                , backgroundColor (hex "96bbc1")
+                [ color (hex "dfbf8e")
+                , backgroundColor (hex "282828")
                 , Css.fontWeight (int 300)
                 , fontFamilies [ "Cairo", "sans-serif" ]
                 , height (pct 100)
