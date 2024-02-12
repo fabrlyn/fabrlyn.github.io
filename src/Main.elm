@@ -106,7 +106,7 @@ splashDivider =
                 , justifyContent center
                 , textAlign center
                 , width (px 450)
-                , borderBottom3 (px 1) solid (hex "5e5e5e")
+                , borderBottom3 (px 1) solid (hex "dfbf8e")
                 , noSelect
                 ]
             ]
